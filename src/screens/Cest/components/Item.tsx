@@ -1,4 +1,4 @@
-import { Image, StyleSheet, View, FlatList } from "react-native";
+import { Image, StyleSheet, View } from "react-native";
 import FarmText from "../../../components/text/Text";
 
 export default function Item({ item: { listName, listImage } }: any) {
